@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+}
+
+p {
+    background-color: antiquewhite;
+    color: green;
+}
+
+h1 {
+    color: green;
+    text-shadow: 2px 2px #ff0000;
+}
+
+h2 {
+    color: orange;
+    text-shadow: 2px 2px #ff00b6;
+}
+
+h4 {
+    color: yellow;
+    font-size: 100px;
+    font-family: Comic Sans MS;
+}
+
+a {
+    width: 800px;
+    height: 300px;
+}
+
+.image1 {
+    width: 800px;
+    height: 300px;
+    webkit-animation: spin 10s linear infinite;
+    -moz-animation: spin 10s linear infinite;
+    animation: spin 10s linear infinite;
+
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
